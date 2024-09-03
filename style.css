@@ -10,6 +10,13 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+#box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
 #Password{
     font-size: 2rem;
     border: none;
@@ -36,6 +43,12 @@ button{
 button:hover{
     background-color: rgb(110, 106, 100);
     transform: scale(1.03);
+}
+
+@media (max-width:720px){
+    #Password{
+        width: 100%;
+    }
 }
 
 
